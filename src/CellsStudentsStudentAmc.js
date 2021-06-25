@@ -33,7 +33,7 @@ export class CellsStudentsStudentAmc extends LitElement {
   // Initialize properties
   constructor() {
     super();
-    this.name = 'Cells';
+    this.courses = [];
   }
 
   static get styles() {
